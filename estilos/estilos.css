@@ -4,7 +4,9 @@
     padding: 0;
 }
 ul{
-    border-radius: 20px;
+    border-radius: 25px;
+    background: white;
+    border: solid 1px black;
 }
 section{
     height: 100vh;
