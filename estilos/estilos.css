@@ -2,6 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Codec Pro', sans-serif;
+}
+body{
+    background: url("img/fondo.jpg") no-repeat 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
 }
 ul{
     border-radius: 25px;
@@ -10,5 +16,37 @@ ul{
 }
 section{
     height: 100vh;
-    padding: 0 6%;
+
+}
+a{
+    text-decoration: none;
+}
+#arrow_inicio{
+    transform: rotate(270deg);
+}
+#nombre{
+    font-size: 5rem;
+    text-align: center;
+}
+#profesion{
+    font-size: 2rem;
+    text-align: center;
+}
+#experiencia{
+    font-size: 1rem;
+    text-align: center;
+}
+.card, .card-footer{
+    border:none;
+}
+#menu{
+    display: none;
+}
+span{
+    width: 65%;
+    text-align: center;
+}
+.opcion{
+    width: 126%;
+    text-align: center;
 }
