@@ -16,25 +16,18 @@ ul{
 }
 section{
     height: 100vh;
-
 }
 a{
     text-decoration: none;
 }
-#arrow_inicio{
-    transform: rotate(270deg);
-}
 #nombre{
     font-size: 5rem;
-    text-align: center;
 }
 #profesion{
     font-size: 2rem;
-    text-align: center;
 }
 #experiencia{
     font-size: 1rem;
-    text-align: center;
 }
 .card, .card-footer{
     border:none;
@@ -50,3 +43,41 @@ span{
     width: 126%;
     text-align: center;
 }
+
+#contenido-perfil{
+    font-size: 1.5rem;
+}
+#imagen_perfil{
+    width: 400px;
+}
+@media screen and (max-width: 667px) {
+    #nombre{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #profesion{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #experiencia{
+        font-size: 1rem;
+        text-align: center;
+    }
+    span{
+        width: 70%;
+        text-align: center;
+    }
+    .opcion{
+        width: 130%;
+        text-align: center;
+    }
+
+    #contenido-perfil{
+        font-size: 1rem;
+    }
+    #imagen_perfil{
+        width: 200px;
+    }
+
+  }
+  
