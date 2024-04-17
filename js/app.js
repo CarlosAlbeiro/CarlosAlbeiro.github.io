@@ -22,3 +22,20 @@ function esMovil() {
     }
   });
 })();
+
+function ruta(id_ruta){
+  let ruta="";
+  switch (id_ruta) {
+    case 1:
+        ruta="foto.png"
+      break;
+    case 2:
+        ruta="estudios.png"
+      break;
+  
+    default:
+      ruta="programador.png"
+      break;
+  }
+  $("#titulo").attr("src", "estilos/img/" + ruta);
+}
