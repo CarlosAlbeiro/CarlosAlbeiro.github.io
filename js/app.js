@@ -27,10 +27,10 @@ function ruta(id_ruta){
   let ruta="";
   switch (id_ruta) {
     case 1:
-        ruta="TECNICO.png"
+        ruta="TECNICO.jpg"
       break;
     case 2:
-        ruta="TECNOLOGO.png"
+        ruta="TECNOLOGO.jpg"
       break;
   
     default:
